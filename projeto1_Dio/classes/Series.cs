@@ -6,6 +6,7 @@ namespace projeto1_Dio{
         private string Titulo { get; set; }
         private string Descricao { get; set; }
         private int Ano { get; set; }
+        public bool Excluido { get; set; }
 
         public Series(int id,Genero genero,string titulo,string descricao,int ano){
             this.Id =id;
@@ -13,6 +14,7 @@ namespace projeto1_Dio{
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
         }
 
         public override string ToString()
@@ -29,6 +31,10 @@ namespace projeto1_Dio{
         }
         public int returnAno(){
             return this.Ano;
+        }
+
+        public void Excluir(){
+            this.Excluido =true;
         }
     }
 }
