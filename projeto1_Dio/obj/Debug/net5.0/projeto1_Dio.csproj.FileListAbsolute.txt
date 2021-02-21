@@ -1,0 +1,16 @@
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\projeto1_Dio.exe
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\projeto1_Dio.deps.json
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\projeto1_Dio.runtimeconfig.json
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\projeto1_Dio.runtimeconfig.dev.json
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\projeto1_Dio.dll
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\ref\projeto1_Dio.dll
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\bin\Debug\net5.0\projeto1_Dio.pdb
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.csprojAssemblyReference.cache
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.AssemblyInfoInputs.cache
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.AssemblyInfo.cs
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.csproj.CoreCompileInputs.cache
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.dll
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\ref\projeto1_Dio.dll
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.pdb
+C:\Users\graci\Desktop\Dio\POO_Csharp\projeto1_Dio\obj\Debug\net5.0\projeto1_Dio.genruntimeconfig.cache

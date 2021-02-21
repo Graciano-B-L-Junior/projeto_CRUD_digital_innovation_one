@@ -21,7 +21,7 @@ namespace projeto1_Dio{
         public void insere(Series entidade)
         {
             listaSeries.Add(entidade);
-            throw new NotImplementedException();
+            
         }
 
         public List<Series> Lista()
@@ -38,6 +38,7 @@ namespace projeto1_Dio{
 
         public Series retornaId(int id)
         {
+            return listaSeries[id];
             throw new NotImplementedException();
         }
     }

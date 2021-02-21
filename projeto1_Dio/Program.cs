@@ -15,18 +15,20 @@ namespace projeto1_Dio
                 {
                     case "1":
                         ListarSeries();
+                        opcaoSelecionada = obterResultado();
                         break;
                     case "2":
                         InserirSerie();
+                        opcaoSelecionada = obterResultado();
                         break;
                     case "3":
-                        AtualizarSerie();
+                        //AtualizarSerie();
                         break;
                     case "4":
-                        ExluirSerie();
+                        //ExluirSerie();
                         break;
                     case "5":
-                        VisualizarSerie();
+                        //VisualizarSerie();
                         break;
                     case "C":
                         Console.Clear();
@@ -38,7 +40,7 @@ namespace projeto1_Dio
             Console.WriteLine("Hello World!");
         }
 
-        public void ListarSeries()
+        public static void ListarSeries()
         {
             Console.WriteLine("Listar Series");
 
@@ -54,13 +56,14 @@ namespace projeto1_Dio
             }
         }
 
-        private void InserirSerie()
+        public static void InserirSerie()
         {
             Console.WriteLine("Inserir nova serie");
-
+            int indice = 1;
             foreach (var i in Enum.GetValues(typeof(Genero)))
             {
-                Console.WriteLine($"{Enum.GetName(typeof(Genero), i)}");
+                Console.WriteLine($"{Enum.GetName(typeof(Genero), i)} - {indice}");
+                indice++;
             }
 
             Console.WriteLine("Digite entre um dos valores acima");
@@ -71,14 +74,14 @@ namespace projeto1_Dio
 
             int AnoSerie = int.Parse(Console.ReadLine());
             
-            Console.WriteLine("Digite entre um dos valores acima");
+            Console.WriteLine("Escreva o titulo da série");
 
             string tituloSerie = Console.ReadLine();
             Console.WriteLine("Digite a descrição da série");
 
             string entradaDescricao = Console.ReadLine();
 
-            Series novaSerie = new Series(id: repositorio.proximoId(),(Genero)entradaGenero,tituloSerie,entradaDescricao,AnoSerie);
+            Series novaSerie = new Series(repositorio.proximoId(),(Genero)entradaGenero,tituloSerie,entradaDescricao,AnoSerie);
             
             repositorio.insere(novaSerie);
         }
